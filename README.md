@@ -1,19 +1,18 @@
-# Youtube-Chatbot-System
-An AI-powered YouTube Chatbot that extracts video transcripts, stores them in a FAISS vector database, and uses Azure OpenAI GPT-4o to answer user questions based on the video's content
+# YouTube AI Chatbot
 
-# YouTube Chatbot System using Streamlit + Azure OpenAI + LangChain
+An AI-powered YouTube Chatbot that extracts video transcripts, stores them in a FAISS vector database, and uses Azure OpenAI GPT-4o to answer user questions based on the video's content.
 
+## Technologies Used
 
-Skiils used: OpenAI LLM, RAG, Langchain, Streamlit
+- Python
+- Streamlit
+- LangChain
+- FAISS
+- Azure OpenAI
+- YouTube Transcript API
 
-# Install Libraries First:
-pip install streamlit
-pip install langchain
-pip install langchain-openai
-pip install langchain-community
-pip install faiss-cpu
-pip install youtube-transcript-api
-pip install tiktoken
+## Run Locally
 
-# Run:
-# streamlit run app.py
+```bash
+pip install -r requirements.txt
+streamlit run app.py
