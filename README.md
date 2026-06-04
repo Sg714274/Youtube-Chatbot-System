@@ -11,10 +11,12 @@ An AI-powered YouTube Chatbot that extracts video transcripts, stores them in a 
 - Azure OpenAI
 - YouTube Transcript API
 
-- Please use your LLM Model (OpenAI, OLLAM, HuggingFace) and Embedding Model to run the code smoothly.
+# Note:  Please use your LLM Model (OpenAI, OLLAM, HuggingFace) and Embedding Model to run the code smoothly.
 
 ## Run Locally
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+
